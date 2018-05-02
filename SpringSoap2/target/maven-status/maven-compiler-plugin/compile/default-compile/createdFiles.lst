@@ -1,0 +1,15 @@
+com/concretepage/article_ws/GetAllArticlesResponse.class
+com/concretepage/article_ws/GetAllArticlesRequest.class
+com/concretepage/article_ws/package-info.class
+com/kamau/SpringSoap2/App.class
+com/concretepage/article_ws/AddArticleRequest.class
+com/concretepage/article_ws/DeleteArticleRequest.class
+com/concretepage/article_ws/GetArticleByIdRequest.class
+com/concretepage/article_ws/ArticleInfo.class
+com/concretepage/article_ws/UpdateArticleResponse.class
+com/concretepage/article_ws/UpdateArticleRequest.class
+com/concretepage/article_ws/ServiceStatus.class
+com/concretepage/article_ws/GetArticleByIdResponse.class
+com/concretepage/article_ws/AddArticleResponse.class
+com/concretepage/article_ws/ObjectFactory.class
+com/concretepage/article_ws/DeleteArticleResponse.class
