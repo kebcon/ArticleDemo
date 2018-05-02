@@ -54,46 +54,24 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-maven-plugin</artifactId>
 	      	  </plugin>
-		  <plugin>
-		    <groupId>org.codehaus.mojo</groupId>
-		    <artifactId>jaxb2-maven-plugin</artifactId>
-		    <version>2.3.1</version>
-		    <executions>
-		        <execution>
-		            <id>xjc-schema</id>
-		            <goals>
-		                <goal>xjc</goal>
-		            </goals>
-		        </execution>
-		    </executions>
-		    <configuration>
-		        <sources>
-                          <source>src/main/resources/xsds</source>
-                        </sources>
-                        <packageName>com.concretepage.gs_ws</packageName>
-		        <clearOutputDir>false</clearOutputDir>
-		    </configuration>
-		  </plugin>
-		  <plugin>
-  <groupId>org.codehaus.mojo</groupId>
-  <artifactId>jaxb2-maven-plugin</artifactId>
-  <version>2.3.1</version>
-  <executions>
-     <execution>
-	<id>xjc-schema</id>
-	<goals>
-	  <goal>xjc</goal>
-	</goals>
-     </execution>
-  </executions>
-  <configuration>
-     <sources>
-	<source>src/main/resources/xsds</source>
-     </sources>
-     <packageName>com.concretepage.gs_ws</packageName>
-     <clearOutputDir>false</clearOutputDir>
-  </configuration>
-</plugin> 
+		 <plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>jaxb2-maven-plugin</artifactId>
+    <version>1.6</version>
+    <executions>
+        <execution>
+            <id>xjc</id>
+            <goals>
+                <goal>xjc</goal>
+            </goals>
+        </execution>
+    </executions>
+    <configuration>
+        <schemaDirectory>${project.basedir}/src/main/resources/</schemaDirectory>
+        <outputDirectory>${project.basedir}/src/main/java</outputDirectory>
+        <clearOutputDir>false</clearOutputDir>
+    </configuration>
+</plugin>
 	  </plugins>
        </build>
 </project>
