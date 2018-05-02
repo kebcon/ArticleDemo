@@ -10,4 +10,5 @@ CREATE TABLE IF NOT EXISTS `articles` (
 
 INSERT INTO `articles` (`article_id`, `title`, `category`) VALUES
 	(1, 'Java Concurrency', 'Java'),
-	(2, 'Spring Boot Getting Started', 'Spring Boot'); 
+	(2, 'Spring Boot Getting Started', 'Spring Boot');
+	(2, 'DevOps', 'Jenkins');
