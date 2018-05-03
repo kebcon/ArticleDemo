@@ -8,7 +8,6 @@ import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
-import com.concretepage.entity.Article;
 import com.concretepage.article_ws.AddArticleRequest;
 import com.concretepage.article_ws.AddArticleResponse;
 import com.concretepage.article_ws.ArticleInfo;
@@ -20,6 +19,7 @@ import com.concretepage.article_ws.GetArticleByIdResponse;
 import com.concretepage.article_ws.ServiceStatus;
 import com.concretepage.article_ws.UpdateArticleRequest;
 import com.concretepage.article_ws.UpdateArticleResponse;
+import com.concretepage.entity.Article;
 import com.concretepage.service.IArticleService;;
 
 @Endpoint
